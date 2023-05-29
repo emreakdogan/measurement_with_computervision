@@ -1,6 +1,6 @@
 # Bilgisayarlı Görü ile Görüntüden Nesnenin Boyutunu Çıkarma ve En Uygun Şekilde Yerleştirme 
 ## Proje İçeriği
-Bu proje, özel olarak boyutunu tespit etmek istediğimiz nesnenin bilgisayarlı görü ile bu proje özelinde YOLO algoritması kullanarak nesne tanıma modeli eğitilmiştir, daha sonra bu tanınan nesnenin kendi boyut çıkartma algoritması ile nesnenin gerçek boyut bilgilerine küçük bir hata payı ile erişme imkanı vermektedir.
+Bu proje, özel olarak boyutunu tespit etmek istediğimiz nesnenin bilgisayarlı görü ile bu proje özelinde YOLO algoritması kullanarak nesne tanıma modeli eğitilmiştir, daha sonra bu tanınan nesnenin kendi boyut çıkartma algoritmam ile nesnenin gerçek boyut bilgilerine küçük bir hata payı ile erişme imkanı vermektedir.
 Not: Bu proje de özel olarak kargo kutuları tespit edilmiş ve onun boyut bilgileri çıkarılmıştır.
 ## Kullanım
 Bu kodu kullanmak için, app.py dosyasını çalıştırmanız ve yanında bir referans objesi(bu projede 1 Türk Lirası madeni para kullanılmıştır) olmak koşuluyla  fotoğrafını çektiğiniz kargonuzun fotoğrafını base64 formatında göndermeniz yeterli olacaktır. Gönderimden sonra  JSON formatında obje tipleri, güven aralığı ve boyut bilgileri gönderilecektir. 
